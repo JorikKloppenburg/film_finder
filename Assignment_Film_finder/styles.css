@@ -1,0 +1,34 @@
+:root {
+    --color1: #fff;
+    --color2: black;
+  }
+  
+html,
+body {
+    color: var(--color1);
+    background-color: var(--color2);
+}
+  
+#movies ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;  
+  list-style: none;
+  padding: 0px;
+}
+
+input[type="radio"] {
+    margin-right: 0px;
+    padding: 0px;
+  }
+
+h1{
+    display: flex;
+    justify-content: space-around;  
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+ 
